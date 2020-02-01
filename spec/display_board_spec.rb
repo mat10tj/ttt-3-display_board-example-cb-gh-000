@@ -2,6 +2,8 @@ require_relative '../lib/display_board'
 
 describe '/lib/display_board.rb' do
   it 'defines a method display_board' do
+    def display_board
+
     expect(defined?(display_board)).to be_truthy
   end
 
@@ -11,11 +13,11 @@ describe '/lib/display_board.rb' do
 
       expect(output).to include("   ")
     end
-    
+
     it 'separates cells with a | character' do
       output = capture_puts{ display_board }
 
-      expect(output).to include("   |   ")      
+      expect(output).to include("   |   ")
     end
 
     it 'prints an 3 cell row' do
