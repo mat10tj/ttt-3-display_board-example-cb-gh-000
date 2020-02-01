@@ -2,6 +2,13 @@ require_relative '../lib/display_board'
 
 describe '/lib/display_board.rb' do
   it 'defines a method display_board' do
+    def display_board
+      |   |
+  -------------
+      |   |
+  -------------
+      |   |
+    end
     expect(defined?(display_board)).to be_truthy
   end
 
