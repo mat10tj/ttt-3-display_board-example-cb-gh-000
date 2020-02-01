@@ -34,7 +34,8 @@ describe '/lib/display_board.rb' do
       output = capture_puts{ display_board }
 
       def display_board
-      expected_output  = "   |   |   \n"
+
+    print  expected_output  = "   |   |   \n"
       expected_output += "-----------\n"
       expected_output += "   |   |   \n"
       expected_output += "-----------\n"
