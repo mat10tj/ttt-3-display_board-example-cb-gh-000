@@ -6,9 +6,9 @@ describe '/lib/display_board.rb' do
   end
 def display_board
 puts "   |    |   "
-puts "------------"
+puts "-----------"
 puts "   |    |   "
-puts "------------"
+puts "-----------"
 puts "   |    |   "
 end
   context "#display_board method" do
