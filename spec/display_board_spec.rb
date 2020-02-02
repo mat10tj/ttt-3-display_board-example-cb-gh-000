@@ -5,11 +5,11 @@ describe '/lib/display_board.rb' do
     expect(defined?(display_board)).to be_truthy
   end
 def display_board
-puts "   |    |   "
+puts "   |   |   "
 puts "-----------"
-puts "   |    |   "
+puts "   |   |   "
 puts "-----------"
-puts "   |    |   "
+puts "   |   |   "
 end
   context "#display_board method" do
     it 'represents a cell as a string with 3 spaces' do
